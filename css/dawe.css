@@ -1,0 +1,318 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    text-decoration: none !important;
+    scroll-behavior: smooth;
+    font-family: "Cairo", sans-serif;
+    border: none !important;
+
+}
+
+
+nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    position: sticky !important;
+    top: 0px;
+    left: 0px;
+    z-index: 999999999999999999999;
+    background-color: #06488a;
+}
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    gap: 50px !important;
+}
+
+
+.navbar-brand {
+    width: 15% !important;
+}
+
+nav img {
+    width: 100%;
+}
+
+#navbarSupportedContent {
+    margin-left: 30%;
+}
+
+.nav-item {
+    font-size: 25px;
+    font-weight: 500;
+    /* margin-left: 5%; */
+}
+
+.nav-item a {
+    color: rgb(255, 255, 255) !important;
+
+}
+
+.nav-item a:hover {
+    color: rgb(109, 108, 108) !important;
+    transition: .8s;
+}
+
+.nav-item-a {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(10, 73, 128) !important;
+}
+
+.aaaa .left {
+    background-color: #83bff0;
+    text-align: center;
+    height: 100vh;
+}
+
+.aaaa .title {
+    color: #005dab;
+    margin: 30px auto;
+    width: 70%;
+}
+
+.aaaa .left p {
+    width: 70%;
+    font-size: 18px;
+    margin: 10px auto;
+}
+
+.aaaa .left img {
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+
+.aaaa h2 {
+    color: #005dab;
+    margin: 30px auto;
+    width: 70%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.right {
+    display: flex;
+    gap: 10px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.right img {
+    width: 50%;
+}
+
+.film1 {
+    width: calc((100% - 10px) / 2);
+
+}
+
+.film1 {
+    display: flex;
+    gap: 10px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.film1 img {
+    width: 50%;
+}
+
+.videos {
+    margin: auto;
+    text-align: center;
+}
+
+.videos video {
+    width: 50%;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+}
+
+.videos1 {
+    margin: auto;
+    text-align: center;
+}
+
+.videos1 video {
+    padding: 30px;
+    width: 40%;
+    height: 500px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+
+
+
+
+
+footer {
+
+    padding-top: 10px;
+    background-color: #8ed1fc;
+    border-top: solid 1px white;
+}
+
+
+
+.con-foot {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    width: calc((100% - 20px) / 1);
+
+}
+
+.con-foot .end-five {
+    width: 30%;
+}
+
+.con-foot .end-four {
+    width: 40%;
+}
+
+.con-foot .img img {
+    width: 100%;
+}
+
+footer .con-foot {
+    padding: 0px 4%;
+}
+
+footer .con-foot div {
+    width: 20%;
+    text-align: center;
+}
+
+footer .con-foot div a {
+    font-size: 20px;
+    display: block;
+    color: white;
+    margin: auto;
+    text-transform: capitalize;
+    background-color: #06488a;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 10px;
+}
+
+footer .con-foot div .one {
+    margin: 10px;
+}
+
+footer .con-foot div a i {
+    padding: 10px;
+}
+
+
+footer .con-foot div a:hover {
+    color: #000000;
+}
+
+.end-five h1 {
+    color: #005dab;
+}
+
+footer .con-icon {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+footer .con-icon a {
+    margin-right: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.end-four h1 {
+    margin: 20px;
+    color: #005dab;
+    font-size: 40px !important;
+}
+
+
+.end-five .button {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.nerd-nav {
+    gap: 70px !important;
+}
+
+.bordr {
+    border: solid white 2px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    min-width: 100%;
+}
+
+@media (min-width:0px) and (max-width:800px) {
+
+    footer .end-one,
+    .end-two,
+    .con-foot,
+    .end-four {
+        margin: 0px auto;
+    }
+
+    .con-foot {
+        flex-direction: column-reverse;
+    }
+
+    .con-foot>* {
+        width: 100% !important;
+
+
+    }
+
+    .cont,
+    .conta,
+    .contan {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        gap: 15px;
+        text-align: center;
+    }
+
+}
+
+@media (min-width:0px) and (max-width:700px) {
+
+
+    .con-foot {
+        flex-direction: column-reverse;
+    }
+
+    .con-foot>* {
+        width: 100% !important;
+
+
+    }
+
+
+}

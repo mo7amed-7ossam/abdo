@@ -1,0 +1,320 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "cairo";
+    outline: none;
+    border: none;
+}
+
+body {
+    direction: rtl;
+}
+
+nav {
+    background-color: #06488a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 4%;
+}
+
+nav .logo img {
+    width: 100px;
+}
+
+nav .links-con button {
+    display: none;
+    width: 30px;
+    aspect-ratio: 1/1;
+    background-color: #83bff0;
+    border-radius: 3px;
+    color: #fff;
+}
+
+nav .links-con .links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav .links-con a {
+    color: #fff;
+    font-size: 14px;
+}
+
+nav .links-con .contact-btn {
+    background-color: #fff;
+    color: #06488a;
+    border-radius: 3px;
+    padding: 3px 20px;
+    margin-right: 30px;
+}
+
+/* main */
+
+main {
+    background-color: #83bff0;
+    display: flex;
+    align-items: center;
+}
+
+main .img-con {
+    width: 50%;
+}
+
+main .img-con img {
+    width: 100%;
+    display: block;
+    filter: drop-shadow(0px 0px 4px #0000003f);
+}
+
+
+main .word {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 4vw;
+    gap: 20px;
+}
+
+main .word img {
+    width: 50%;
+}
+
+main .word p {
+    text-align: justify;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #00000060;
+}
+
+/* message */
+
+.message {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 70px 4%;
+    padding-bottom: 0%;
+}
+
+.message>div {
+    width: 50%;
+}
+
+.message .text {
+    /* padding-right:40px ; */
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #83bff0;
+}
+
+.message .text h2 {
+    font-size: 30px;
+    color: #06488a;
+}
+
+.message .text p {
+    font-size: 16px;
+    text-align: justify;
+    color: #fff;
+    font-weight: bold;
+}
+
+.message .img img {
+    width: 100%;
+}
+
+/* team */
+
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 4%;
+}
+
+.team .img {
+    width: 55%;
+}
+
+.team .text {
+    padding-left: 40px;
+    width: 45%;
+
+}
+
+.team .text h2 {
+    font-size: 30px;
+    color: #06488a;
+}
+
+.team .text p {
+    font-size: 18px;
+    text-align: justify;
+    font-weight: bold;
+    color: #555;
+}
+
+.team .img img {
+    width: 100%;
+}
+
+/* why */
+
+.why {
+    padding: 40px 4%;
+    text-align: center;
+}
+
+.why h2 {
+    color: #06488a;
+    font-size: 30px;
+}
+
+.why h3 {
+    color: #666;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.why .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.why .container .card {
+    width: calc((100% - 90px) / 4);
+    aspect-ratio: 1/1;
+    background-color: #83bff0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 0px 6px #00000060;
+
+}
+
+.why .container .card .img {
+    width: 30%;
+    border: solid 2px #fff;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.why .container .card .img img {
+    width: 100%;
+    display: block;
+}
+
+.why .container .card h4 {
+    font-size: 23px;
+}
+
+.why .container .card h5 {
+    font-size: 16px;
+}
+
+/* footer */
+footer {
+    background-color: #06488a;
+    padding: 70px 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+footer img {
+    width: 12%;
+    display: block;
+}
+
+footer .time {
+    color: #fff;
+    text-align: center;
+}
+
+footer .contact {
+    text-align: center;
+    color: #fff;
+}
+
+footer .contact a {
+    color: #fff;
+}
+
+/* responsive */
+
+@media (min-width:0px) and (max-width:800px) {
+    nav .links-con .links {
+        display: none;
+    }
+
+    nav .links-con button {
+        display: block;
+    }
+
+    main {
+        background-image: url(../img/web/banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    main .img-con {
+        display: none;
+    }
+
+    main .word {
+        width: 100% !important;
+        padding: 40px !important;
+
+    }
+
+    main .word p {
+        color: #f0f0f0;
+        text-shadow: 0px 0px 5px #000000b7 !important;
+    }
+
+    main .word img {
+        filter: drop-shadow(0px 0px 10px #000000b7) !important;
+    }
+
+    .team {
+        margin-top: 40px;
+    }
+
+    .message>*,
+    .team>*,
+    footer>* {
+        width: 100% !important;
+    }
+
+    .why .container .card {
+        width: 90%;
+        margin: auto;
+    }
+
+    footer {
+        gap: 20px;
+    }
+
+    footer img {
+        width: 50% !important;
+        margin: auto;
+    }
+}
